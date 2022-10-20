@@ -17,6 +17,7 @@ use App\Http\Controllers\Auth\LoginController;
 */
 
 Route::get('/', HomeController::class);
+Route::get('/admin', [HomeController::class, 'dashboard']);
 /* Route::get('login', LoginController::class); */
 
 
